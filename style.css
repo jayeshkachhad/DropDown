@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: beige;
+    user-select: none;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+}
+
+select {
+    padding: 4px 7px;
+}
+
+option {
+    padding: 4px 7px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.mainDrop {
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.mainDrop li {
+    display: none;
+    border: 1px solid red;
+    margin: 3px 5px;
+    transition: ease;
+    cursor: pointer;
+}
+
+
+.tiles {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 10px 10px;
+    justify-content: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.tileHeading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tileHeading h5 {
+    padding: 5px;
+}
+
+.tiles p {
+    display: none;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin: 3px;
+    padding: 4px;
+}
