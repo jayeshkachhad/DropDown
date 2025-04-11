@@ -26,6 +26,7 @@ option {
     align-items: center;
 }
 
+
 li {
     list-style: none;
     cursor: pointer;
@@ -74,4 +75,16 @@ li {
     border-radius: 3px;
     margin: 3px;
     padding: 4px;
+}
+
+.subMenuLi {
+    margin-left: 50px;
+    border: 1px solid red;
+}
+
+.mini {
+    /* display: none; */
+    padding: 3px;
+    margin-left: 100px;
+    border: 1px solid blue;
 }
