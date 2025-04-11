@@ -39,8 +39,10 @@ $(document).ready(function () {
         // $(".subMenuUl").click(false) // trial
         // $(".subMenuUl").css({ "pointer-events": "none" })
         console.log("subMenuLi Arrow Clicked");
-        let minies = $(this).siblings(".mini");
-        minies.toggle("fast");
+        // let minies = $(this).siblings(".mini");
+        // minies.toggle("fast");
+        // $(".mini").show();
+        $(this).siblings(".mini").show()
     })
 
 })
