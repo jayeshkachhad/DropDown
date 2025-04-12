@@ -18,21 +18,21 @@ for (let i = 0; i < 15; i++) {
 // console.log(values);
 
 // mid2.innerHTML = "";
-values.forEach(function (v) {
-    let tile = document.createElement("div")
-    tile.classList.add("tiles")
+// values.forEach(function (v) {
+//     let tile = document.createElement("div")
+//     tile.classList.add("tiles")
 
-    tile.innerHTML = `
-                <div class="tileHeading">
-                <h5>Heading ${v}</h5>
-                <img src="/down.svg" alt="Down" height="40px">
-            </div>
-            <ul> Menu ${v} <img src="/down.svg" alt="subMenu" height="20px"> 
+//     tile.innerHTML = `
+//                 <div class="tileHeading">
+//                 <h5>Heading ${v}</h5>
+//                 <img src="/down.svg" alt="Down" height="40px">
+//             </div>
+//             <ul> Menu ${v} <img src="/down.svg" alt="subMenu" height="20px"> 
                 
-            </ul>
-`
-    mid2.appendChild(tile)
-})
+//             </ul>
+// `
+//     mid2.appendChild(tile)
+// })
 
 
 // document.getElementsByTagName("select")[0].selectedIndex = 2;
